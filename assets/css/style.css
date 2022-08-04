@@ -6471,9 +6471,23 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 48px;
   color: #368abc;
   margin-right: 30px;
+}
+
+.contact-info li .icon2 {
+  /*height: 90px;*/
+  /*width: 90px;*/
+  /*background-color: #dfd7fd;*/
+  /*border-radius: 100%;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #48e;
+  /*color: #368abc;*/
+  margin-right: 60px;
 }
 @media only screen and (max-width: 479px) {
   .contact-info li .icon {
@@ -7102,4 +7116,13 @@ hr {
   }
 
 
+}
+
+
+.section-padding{
+   font-family: 'Lora';
+    background: linear-gradient(#3337, #3337), url("../images/contact/contact.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
