@@ -78,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   margin: 0px;
 }
 
@@ -236,7 +236,7 @@ hr {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.9;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   text-transform: uppercase;
   letter-spacing: 8px;
 }
@@ -350,9 +350,9 @@ hr {
 
 /* Button Style */
 .btn-style-one {
-  border-color: #368abc;
-  background: #368abc;
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  border-color: rgb(244, 95, 3);
+  background: rgb(244, 95, 3);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   border: 0px;
   border-radius: 27px;
   padding: 20px 45px;
@@ -371,8 +371,8 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #368abc;
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  background: rgb(244, 95, 3);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   opacity: 0;
   transition: 0.5s;
   border-radius: 27px;
@@ -393,7 +393,7 @@ hr {
 
 .btn-style-two {
   background: transparent;
-  border: 2px solid #368abc;
+  border: 2px solid rgb(244, 95, 3);
   color: #1c1c1c;
   border-radius: 27px;
   padding: 15px 50px;
@@ -414,8 +414,8 @@ hr {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: #368abc;
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  background: rgb(244, 95, 3);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   opacity: 0;
   transition: 0.5s;
   border-radius: 27px;
@@ -450,7 +450,7 @@ hr {
   box-shadow: none;
 }
 .btn-style-three:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   background: white;
 }
 
@@ -471,9 +471,9 @@ hr {
   box-shadow: none;
 }
 .btn-style-four:hover, .btn-style-four.active {
-  border-color: #368abc;
-  background: #368abc;
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  border-color: rgb(244, 95, 3);
+  background: rgb(244, 95, 3);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   border: 0px;
   border-radius: 27px;
   padding: 20px 40px;
@@ -490,8 +490,8 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #368abc;
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  background: rgb(244, 95, 3);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   opacity: 0;
   transition: 0.5s;
   border-radius: 27px;
@@ -690,7 +690,7 @@ hr {
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   background-size: 200% auto;
   background-position: left center;
   transition: 0.3s;
@@ -699,7 +699,7 @@ hr {
 }
 .scroll-top:hover {
   background-color: #1c1c1c;
-  border: 1px solid #368abc;
+  border: 1px solid rgb(244, 95, 3);
   background-position: right center;
 }
 .scroll-top:hover i {
@@ -837,7 +837,7 @@ hr {
 
 .header-button .btn {
   background: transparent;
-  border: 3px solid #368abc;
+  border: 3px solid rgb(244, 95, 3);
   color: #1c1c1c;
   border-radius: 30px;
   padding: 17px 35px;
@@ -897,11 +897,11 @@ hr {
   transition: 0.3s;
 }
 .main-menu > ul > li:hover > a {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 
 .active-menu-item{
-  color:#368abc!important;
+  color:rgb(244, 95, 3)!important;
 }
 .main-menu .has-children {
   position: relative;
@@ -932,7 +932,7 @@ hr {
   color: #1c1c1c;
 }
 .main-menu .has-children > .sub-menu > li:hover a {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   padding-left: 5px;
   transition: 0.3s;
 }
@@ -1023,7 +1023,7 @@ hr {
   transform: translateY(-50%) rotate(-45deg) rotateY(180deg);
 }
 .hamburger_button:hover span {
-  background: #368abc;
+  background: rgb(244, 95, 3);
 }
 
 /* Sticky Style */
@@ -1064,7 +1064,7 @@ hr {
   color: #1c1c1c;
 }
 .mobile-menu li a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .mobile-menu li.menu-item-has-children .menu-expand {
   line-height: 50;
@@ -1104,7 +1104,7 @@ hr {
   font-weight: 400;
 }
 .mobile-menu li ul li a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 
 .mobilemenu-close {
@@ -1391,7 +1391,7 @@ hr {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.9;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   text-transform: uppercase;
   letter-spacing: 8px;
 }
@@ -1739,7 +1739,7 @@ hr {
 .sliderone-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 60px;
   border-radius: 20px;
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   transition: 0.4s;
 }
 
@@ -1762,7 +1762,7 @@ hr {
 .slidertwo-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 60px;
   border-radius: 20px;
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   transition: 0.4s;
 }
 @media only screen and (min-width: 1550px) {
@@ -1911,7 +1911,7 @@ hr {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.9;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   text-transform: uppercase;
   letter-spacing: 8px;
 }
@@ -2498,7 +2498,7 @@ hr {
   margin-bottom: -3rem;
 }
 .funfact .funfact-bg {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   position: relative;
   padding: 145px 0;
   border-radius: 0 20px 20px 0;
@@ -2524,7 +2524,7 @@ hr {
   }
 }
 .funfact .funfact-bg::after {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   content: "";
   height: 100%;
   right: 98%;
@@ -2537,7 +2537,7 @@ hr {
   border-radius: 0px;
 }
 .funfact .funfact-bg-two::before {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   content: "";
   height: 100%;
   left: 98%;
@@ -2881,7 +2881,7 @@ hr {
 .single-service .readmore-btn:hover {
   padding-left: 10px;
   transition: 0.3s;
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 
 .process-section {
@@ -3067,7 +3067,7 @@ hr {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.16;
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 @media only screen and (max-width: 767px) {
   .service-desc .single-outcome .parcentage {
@@ -3223,7 +3223,7 @@ hr {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.16;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   margin-right: 12px;
 }
 @media only screen and (max-width: 767px) {
@@ -3394,7 +3394,7 @@ hr {
   margin-bottom: 0px;
 }
 .faq-tab .faq-link.active {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
 }
 
 /* =============================
@@ -3454,13 +3454,13 @@ hr {
 .progress-section .progress-bar {
   overflow: visible;
   height: 13px;
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   border-radius: 10px;
 }
 .progress-section .progress-number {
   position: absolute;
   right: -70px;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   font-size: 21px;
   font-weight: 500;
   top: 50%;
@@ -3524,7 +3524,7 @@ hr {
   margin-right: 0px;
 }
 .portfolio-menu-style .btn-portfolio:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-menu-style .btn-portfolio {
@@ -3537,7 +3537,7 @@ hr {
   }
 }
 .portfolio-menu-style .btn-portfolio.active {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 
 .single-portfolio {
@@ -3554,7 +3554,7 @@ hr {
 }
 .single-portfolio .thumbnail::before {
   content: "";
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   width: 100%;
   height: 100%;
   top: 0%;
@@ -3989,7 +3989,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #368abc;
+  border: 2px solid rgb(244, 95, 3);
   border-radius: 100%;
   font-size: 24px;
   color: #1c1c1c;
@@ -4003,7 +4003,7 @@ hr {
   }
 }
 .portfolio-swiper-arrow .swiper-btn:hover {
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   color: white;
   border: 0px;
 }
@@ -4012,7 +4012,7 @@ hr {
     2.8 - Work Banner Style
 ================================ */
 .work-banner {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   padding: 100px 110px;
   display: flex;
   align-items: center;
@@ -4139,7 +4139,7 @@ hr {
   }
 }
 .workbanner-two .work-banner::after {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   content: "";
   height: 100%;
   left: 98%;
@@ -4160,7 +4160,7 @@ hr {
 }
 .single-team .team-content {
   background-color: white;
-  border-top: 3px solid #368abc;
+  border-top: 3px solid rgb(244, 95, 3);
   box-shadow: 21px 0px 48px rgba(41, 8, 155, 0.08);
   padding: 25px 0 30px 0;
   max-width: 265px;
@@ -4203,7 +4203,7 @@ hr {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   border-radius: 10px;
   opacity: 0;
   transition: 0.3s;
@@ -4540,7 +4540,7 @@ hr {
 }
 
 .testimonial-wrapper {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   position: relative;
   padding: 190px 0;
   border-radius: 20px 0px 0px 20px;
@@ -4571,7 +4571,7 @@ hr {
   }
 }
 .testimonial-wrapper::after {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   content: "";
   height: 100%;
   left: 98%;
@@ -4998,7 +4998,7 @@ hr {
   color: white;
 }
 .testimonial-style-two::after {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   top: 0;
   bottom: 190px;
   height: calc(100% - 190px);
@@ -5058,7 +5058,7 @@ hr {
   }
 }
 .blog-info .meta li::after {
-  background: #368abc;
+  background: rgb(244, 95, 3);
   content: "";
   width: 3px;
   height: 3px;
@@ -5069,7 +5069,7 @@ hr {
   transform: translate(-50%);
 }
 .blog-info .meta li:first-child {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   font-family: "Jost", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -5172,7 +5172,7 @@ hr {
   font-size: 16px;
 }
 .single-blog-meta li span {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   margin-right: 10px;
 }
 .single-blog-meta li a {
@@ -5182,7 +5182,7 @@ hr {
   font-weight: 500;
 }
 .single-blog-meta li a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .single-blog-content .title {
   font-size: 48px;
@@ -5227,10 +5227,10 @@ hr {
   color: #1c1c1c;
 }
 .single-blog-content .content-bottom .read-more:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .single-blog-content .content-bottom .read-more i {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   margin-right: 7px;
 }
 .single-blog-content .content-bottom .time {
@@ -5285,7 +5285,7 @@ hr {
   }
 }
 .single-blog-share-tag .tags ul li a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .single-blog-share-tag .sidebar-social li a {
   height: 50px;
@@ -5361,7 +5361,7 @@ hr {
   margin-top: 6px;
 }
 .single-blog-two-content .title:hover a {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .single-blog-two:hover .single-blog-two-thumb::before {
   height: 100%;
@@ -5391,7 +5391,7 @@ hr {
 .single-subblog .subtitle {
   font-family: "Jost", sans-serif;
   font-size: 16px;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   font-weight: 500;
 }
 .single-subblog .title {
@@ -5402,7 +5402,7 @@ hr {
   margin-top: 10px;
 }
 .single-subblog .title a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .single-subblog .date {
   font-family: "Roboto", sans-serif;
@@ -5560,7 +5560,7 @@ hr {
 }
 .post-nav-link .content .prev-arrow, .post-nav-link .content .next-arrow {
   font-size: 16px;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   font-weight: 500;
 }
 .post-nav-link .content .prev-arrow i {
@@ -5642,10 +5642,10 @@ hr {
   color: #1c1c1c;
 }
 .entry-author .read-more:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .entry-author .read-more i {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   margin-right: 7px;
 }
 
@@ -6085,7 +6085,7 @@ hr {
 }
 .pagination-wrapper .pagination .page-item .page-link:hover, .pagination-wrapper .pagination .page-item .page-link.active {
   color: white;
-  background: #368abc;
+  background: rgb(244, 95, 3);
 }
 
 /* =============================
@@ -6139,7 +6139,7 @@ hr {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   width: 5px;
   height: 20px;
   border-radius: 5px;
@@ -6161,7 +6161,7 @@ hr {
   }
 }
 .sidebar.sidebar-help {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
 }
 .sidebar-search {
   position: relative;
@@ -6174,7 +6174,7 @@ hr {
   transform: translateY(-50%);
   border: 0px;
   background-color: white;
-  color: #368abc;
+  color: rgb(244, 95, 3);
   font-size: 20px;
 }
 .sidebar-input {
@@ -6229,7 +6229,7 @@ hr {
   flex-direction: column;
 }
 .sidebar-blog li .content .subtitle {
-  color: #368abc;
+  color: rgb(244, 95, 3);
   font-size: 14px;
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -6241,7 +6241,7 @@ hr {
   font-weight: 500;
 }
 .sidebar-blog li .content .title:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .sidebar-blog li .content .date {
   font-size: 14px;
@@ -6263,7 +6263,7 @@ hr {
   font-size: 16px;
 }
 .sidebar-category li a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .sidebar-category li a span {
   color: #a3a1a9;
@@ -6285,7 +6285,7 @@ hr {
   margin-bottom: 0px;
 }
 .sidebar-tags a:hover, .sidebar-tags a.active {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   color: White;
 }
 .sidebar-instagram li {
@@ -6299,7 +6299,7 @@ hr {
   position: relative;
 }
 .sidebar-instagram li a::after {
-  background: #368abc;
+  background: rgb(244, 95, 3);
   content: "";
   width: 100%;
   height: 100%;
@@ -6424,7 +6424,7 @@ hr {
   border-radius: 5px;
 }
 .sidebar-service li a:hover, .sidebar-service li a.active {
-  background-color: #368abc;
+  background-color: rgb(244, 95, 3);
   color: white;
 }
 .sidebar-download li {
@@ -6486,7 +6486,7 @@ hr {
   justify-content: center;
   font-size: 50px;
   color: #48e;
-  /*color: #368abc;*/
+  /*color: rgb(244, 95, 3);*/
   margin-right: 60px;
 }
 @media only screen and (max-width: 479px) {
@@ -6513,7 +6513,7 @@ hr {
   color: #54545f;
 }
 .contact-info-content .text a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6796,7 +6796,7 @@ hr {
   color: #54545f;
 }
 .footer-widget-list a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 .footer-widget .instagrm {
   margin-right: -10px;
@@ -6812,7 +6812,7 @@ hr {
   position: relative;
 }
 .footer-widget .instagrm li a::after {
-  background: #368abc;
+  background: rgb(244, 95, 3);
   content: "";
   width: 100%;
   height: 100%;
@@ -6875,7 +6875,7 @@ hr {
   padding: 0 20px;
   line-height: 1;
   font-size: 16px;
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 
 .footer-style-two {
@@ -6987,9 +6987,9 @@ hr {
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  border-color: #368abc;
-  background: #368abc;
-  background: linear-gradient(135deg, #368abc 0%, #368abc 45%, #368abc 66%);
+  border-color: rgb(244, 95, 3);
+  background: rgb(244, 95, 3);
+  background: linear-gradient(135deg, rgb(244, 95, 3) 0%, rgb(244, 95, 3) 45%, rgb(244, 95, 3) 66%);
   border: 0px;
   border-radius: 0 5px 5px 0;
   height: 100%;
@@ -7055,7 +7055,7 @@ hr {
   color: #54545f;
 }
 .copyright .footer-bootm-list li a:hover {
-  color: #368abc;
+  color: rgb(244, 95, 3);
 }
 
 .subcription-form-wrapper {
@@ -7134,3 +7134,5 @@ hr {
 .bg-orange{
   background:rgb(244,95,3);
 }
+
+/* rgb(244, 95, 3)  x  rgb(244, 95, 3) */
