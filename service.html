@@ -24,8 +24,7 @@
 </head>
 
 <body>
-
-    <header class="header-wrapper sticky-header">
+   <header class="header-wrapper sticky-header">
         <div class="">
             <div class="container">
                 <div class="row">
@@ -44,11 +43,15 @@
                                 <div class="d-none d-lg-flex header-right_menu">
                                     <nav class="main-menu">
                                         <ul>
-                                            <li><a href="index.html">Inicio</a></li>
-                                            <li><a href="about.html">Quienes Somos</a></li>
-
-                                            <li><a href="service.html" class="active-menu-item">Soluciones</a>
+                                            <li><a href="index.html" >Inicio</a></li>
+                                            <li class="has-children">
+                                                <a href="#" >Quienes Somos</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="about.html">Nosotros</a></li>
+                                                    <li><a href="team-members.html">Nuestro Equipo</a></li>
+                                                </ul>
                                             </li>
+                                            <li><a href="service.html" class="active-menu-item">Soluciones</a></li>
                                             <!-- <li class="has-children">
                                                 <li><a href="portfolio.html">Proyectos</a></li>
                                             </li> -->
@@ -60,7 +63,7 @@
 
                                 <!-- Header Actions Start -->
                                 <div class="header-right_actions flex-center">
-                                    <!-- <div class="header-social">
+                                    <div class="header-social">
                                         <ul class="social-icon flex-center">
                                             <li>
                                                 <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
@@ -75,7 +78,9 @@
                                                 <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
                                             </li>
                                         </ul>
-                                    </div> -->
+                                    </div>
+
+
 
                                     <div class="hamburger d-block d-lg-none  p-4">
                                         <!-- Mobile Menu Hambarger Action Button Start -->
@@ -101,8 +106,8 @@
 
         <div class="offcanvas-header">
             <!-- Header Logo Start -->
-            <div class="logo">
-                <a href="index.html" class="title-logo">
+            <div class="logo  w-100">
+                <a href="index.html" class="title-logo d-block">
                     Ar Tech
                 </a>
             </div>
@@ -113,10 +118,17 @@
             <!-- mobile menu navigation start -->
             <nav>
                 <ul class="mobile-menu">
-                    <li><a href="index.html">INICIO </a></li>
-                    <li><a href="about.html">QUIENES SOMOS </a></li>
+                    <li><a href="index.html" >INICIO </a></li>
                     
-                    <li><a href="service.html" class="active-menu-item">Soluciones </a></li>
+                     
+                    <li class="menu-item-has-children">
+                        <a href="#">QUIENES SOMOS</a>
+                        <ul class="dropdown">
+                            <li><a href="about.html">NOSOTROS</a></li>
+                            <li><a href="team-members.html">NUESTRO EQUIPO</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="service.html" class="active-menu-item">SOLUCIONES </a></li>
                         
                     <!-- <li><a href="portfolio.html">PROYECTOS </a></li> -->
                         
