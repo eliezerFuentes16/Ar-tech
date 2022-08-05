@@ -1876,7 +1876,8 @@ hr {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   line-height: 1.16;
-  color: #1b64b0;
+  /*color: #1b64b0;*/
+  color: rgb(244, 95, 3);
 }
 .slider-content-two .slider-content .title {
   font-size: 72px;
