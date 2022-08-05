@@ -2830,7 +2830,7 @@ hr {
   background-color: white;
   box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
   padding: 70px;
-  border-top: 5px solid #368abc;
+  border-top: 5px solid rgb(244, 95,3);
   border-radius: 0 0 20px 20px;
   z-index: 1;
   position: relative;
@@ -7125,4 +7125,12 @@ hr {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+.text-orange{
+  color:rgb(244,95,3);
+}
+
+.bg-orange{
+  background:rgb(244,95,3);
 }
