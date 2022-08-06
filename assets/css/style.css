@@ -7136,4 +7136,31 @@ hr {
   background:rgb(244,95,3);
 }
 
+.div-flex-contact{
+  display:flex;
+}
+
+.div-flex-contact-item{
+  width:50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .div-flex-contact{
+    display:block;
+  }
+  .div-flex-contact-item{
+    width:100%;
+    margin:auto;
+
+  }
+
+  .text-estaremos-en-contacto{
+    text-align:center;
+  }
+}
+
+.footer-widget-list li a{
+ color:rgb(244,95,3);
+}
+
 /* rgb(244, 95, 3)  x  rgb(244, 95, 3) */
