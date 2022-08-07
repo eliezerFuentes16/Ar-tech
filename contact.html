@@ -24,7 +24,7 @@
 </head>
 
 <body>
-   <header class="header-wrapper sticky-header">
+   <header class="header-wrapper sticky-header sticky">
         <div class="">
             <div class="container">
                 <div class="row">
@@ -176,26 +176,14 @@
     <!-- Breadcrumb Section End -->
 
     <!-- Contact Section Start -->
-    <div class="section-padding section-padding-contact">
+<!--     <div class="section-padding section-padding-contact">
         <div class="container  d-block">
             <div class=" mb-n30">
                 <div class="w-100 mb-30 ">
-                    <div class="div-flex-contact ">
-                        <div class="div-flex-contact-item">
-                            <div class="contact-map-section wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                                <div class="google-map-area w-100">
-                                    <div class="icon">
-                                        <!-- <img src="assets/images/icons/contact.png" alt="Map-Icon"> -->
-                                    </div>
-                                    <div class="map-inner" style="width: 90%; margin:auto; margin-top:70px">
-                                        <iframe src="https://maps.google.com/maps?width=100%25&amp;height=420&amp;hl=en&amp;q=london+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-flex-contact-item ">
+                    <div class="div-flex-contact d-block ">
+                        
+                        <div class="div-flex-contact-item w-100 ">
                             <div class="section-title-center section-head contact-head text-start mb-5 wow fadeIn w-100" data-wow-duration="1.5s" data-wow-delay=".1s">
-                                <!-- <span class="subtitle">Contactanos</span> -->
                                 <h2 class="title text-light text-estaremos-en-contacto">Estaremos en contacto</h2>
                             </div>
                             <ul class="contact-info wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
@@ -222,9 +210,85 @@
                                 </li>
                             </ul>
                         </div>
+
+                        <div class="div-flex-contact-item w-100">
+                            <div class="contact-map-section wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                                <div class="google-map-area w-100">
+                                    <div class="icon">
+                                    </div>
+                                    <div class="map-inner" id="map2" style="width: 90%; margin:auto; margin-top:70px; height: 420px; border-radius:30px">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-30 m-auto" >
+                    <form id="contact-form" class="comment-form-inner contact-form wow fadeIn" style="border: 1px solid rgb(244,95,3); background: #055cad; background: #0D2B44" data-wow-duration="1.5s" data-wow-delay=".1s" action="assets/php/contact.php">
+                        <h2 class="title text-light">Escribe un Mensaje</h2>
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <input placeholder="Nombre" name="name">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="email" placeholder="Correo" name="email">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input placeholder="telefono" name="phone">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <textarea name="message" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="col-12 text-left">
+                                <button class="btn btn-style-one" type="submit"> <span>Enviar</span> </button>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-message mt-4"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Contact Section End -->
+<!-- Contact Section Start -->
+    <div class="section-padding section-padding-contact">
+        <div class="container">
+            <div class="row mb-n30">
+                <div class="col-lg-6 mb-30">
+                    <!-- Section Title Start -->
+                    <div class="section-title-center section-head contact-head text-start mb-5 wow fadeIn w-100" data-wow-duration="1.5s" data-wow-delay=".1s">
+                                <!-- <span class="subtitle">Contactanos</span> -->
+                                <h2 class="title text-light text-estaremos-en-contacto">Estaremos en contacto</h2>
+                            </div>
+                            <ul class="contact-info wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                                <li class="text-center ">
+                                    <i class="fas fa-building icon"></i>
+                                    <div class="contact-info-content">
+                                        <h3 class="title text-light">Ubicacion</h3>
+                                        <span class="text text-light">Sede Administrativa</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone-alt icon"></i>
+                                    <div class="contact-info-content">
+                                        <h3 class="title text-light">Bogota</h3>
+                                        <span class="text text-light">601 1111111</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fab fa-whatsapp icon"></i>
+                                    <div class="contact-info-content">
+                                        <h3 class="title text-light">whatsApp</h3>
+                                        <span class="text text-light">+57 3109032447</span>
+                                    </div>
+                                </li>
+                            </ul>
+                    <!-- Contact Information End -->
+                </div>
+                <div class="col-lg-6 mb-30">
                     <form id="contact-form" class="comment-form-inner contact-form wow fadeIn" style="border: 1px solid rgb(244,95,3); background: #055cad; background: #0D2B44" data-wow-duration="1.5s" data-wow-delay=".1s" action="assets/php/contact.php">
                         <h2 class="title text-light">Escribe un Mensaje</h2>
                         <div class="row">
@@ -252,8 +316,32 @@
                 </div>
             </div>
         </div>
+            <!-- Contact Map Section Start -->
+        <div class="section-margin-bottom w-100">
+            <div class=" w-100">
+                <div class="w-100 ">
+                    <div class=" w-100">
+                        <div class="contact-map-section wow fadeIn w-100" data-wow-duration="1.5s" data-wow-delay=".1s">
+                            <!-- Google Map Area Start -->
+                            <div class="google-map-area w-100">
+                                <div class="icon">
+                                    <!-- <img src="assets/images/icons/contact.png" alt="Map-Icon"> -->
+                                </div>
+                                 <div class="map-inner" id="map" style="width: 100%; margin:auto; margin-top:70px; height: 500px; border-radius:30px">
+                                           
+                                </div>
+                            </div>
+                            <!-- Google Map Area Start -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Map Section End -->
     </div>
     <!-- Contact Section End -->
+
+
 
 
     <footer class="footer-wrapper">
@@ -264,36 +352,8 @@
             <img src="assets/images/footer/shape-two.png" alt="Footer-Shape">
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Footer Top Start -->
-                    <div class="footer-top">
-                        <!-- Section Title Start -->
-                        <div class="section-title-center section-head mb-0 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <!-- <span class="subtitle">Get Updates</span> -->
-                            <h2 class="title">Suscribete a Ar Tech</h2>
-                        </div>
-                        <!-- Section Title End  -->
-                        <div class="subcription-form-wrapper wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <!-- Subscription Form Start -->
-                            <form id="mc-form" class="subscribe-form" action="#">
-                                <input class="email" type="email" placeholder="Ingresa tu email" name="EMAIL">
-                                <button class="button">Suscribirse</button>
-                            </form>
-                            <!-- Subscription Form End -->
-                            <!-- mailchimp-alerts Start -->
-                            <div class="mailchimp-alerts text-centre">
-                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                                <div class="mailchimp-success text-green-400"></div><!-- mailchimp-success end -->
-                                <div class="mailchimp-error text-red-600"></div><!-- mailchimp-error end -->
-                            </div>
-                            <!-- mailchimp-alerts end -->
-                        </div>
-                    </div>
-                    <!-- Footer Top End -->
-                </div>
-            </div>
-            <div class="row mb-n30">
+         
+            <div class="row ">
 
                 <!-- Footer Widget Start -->
                 <div class="col-lg-6 col-md-4 col-sm-6 col-12 mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
@@ -330,115 +390,28 @@
                 <!-- Footer Widget Start -->
                 <div class="col-lg-6 col-md-4 col-sm-6 col-12 mb-30 d-flex justify-content-lg-center justify-content-sm-end wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                     <div class="footer-widget">
-                        <h5 class="footer-widget-title text-center">Servicios</h5>
+                        <h5 class="footer-widget-title text-center">Soluciones</h5>
                         <div class="d-flex ">
                             <ul class="footer-widget-list p-2">
-                                <li><a href="service.html">Sistemas Personalizados</a></li>
-                                <li><a href="service.html">Desarrollo web y Movil</a></li>
-                                <li><a href="service.html">Asistencia Tecnologica</a></li>
-                                <li><a href="service.html">Consultoria y auditoria</a></li>
-                                <li><a href="service.html">Gestion Comercial</a></li>
+                                <li><a href="#services">Sistemas Personalizados</a></li>
+                                <li><a href="#services">Desarrollo web y Movil</a></li>
+                                <li><a href="#services">Asistencia Tecnologica</a></li>
+                                <li><a href="#services">Consultoria y auditoria</a></li>
+                                <li><a href="#services">Gestion Comercial</a></li>
                                 
                             </ul>
                             <ul class="footer-widget-list p-2">
-                                <li><a href="service.html">Sistemas Financieros</a></li>
-                                <li><a href="service.html">Sistema de Brazabilidad</a></li>
-                                <li><a href="service.html">Manejo de dispositivos</a></li>
-                                <li><a href="service.html">Integracion de sistemas</a></li>
-                                <li><a href="service.html">Factura Electronica AFIP</a></li>
+                                <li><a href="#services">Sistemas Financieros</a></li>
+                                <li><a href="#services">Sistema de Brazabilidad</a></li>
+                                <li><a href="#services">Manejo de dispositivos</a></li>
+                                <li><a href="#services">Integracion de sistemas</a></li>
+                                <li><a href="#services">Factura Electronica AFIP</a></li>
                             </ul>
                         </div>
                         
                     </div>
                 </div>
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <!-- <div class="col-lg-3 col-md-4 col-sm-5 col-12 mb-30 d-flex justify-content-lg-center justify-content-md-end wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <div class="footer-widget">
-                        <h5 class="footer-widget-title">Quick Links</h5>
-                        <ul class="footer-widget-list">
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="contact.html">History</a></li>
-                            <li><a href="contact.html">Support</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="contact.html">Refund</a></li>
-                        </ul>
-                    </div>
-                </div> -->
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-               <!--  <div class="col-lg-3 col-md-6 col-sm-7 col-12 mb-30 d-flex justify-content-sm-end wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <div class="footer-widget">
-                        <h5 class="footer-widget-title">Follow Us On</h5>
-                        <ul class="instagrm">
-                            <li>
-                                <a href="#">
-                                    <img src="assets/images/footer/insta-one.png" alt="Insta-Image">
-                                    <div class="add-action">
-                                        <i class="fab fa-instagram"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/images/footer/insta-two.png" alt="Insta-Image">
-                                    <div class="add-action">
-                                        <i class="fab fa-instagram"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/images/footer/insta-three.png" alt="Insta-Image">
-                                    <div class="add-action">
-                                        <i class="fab fa-instagram"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/images/footer/insta-four.png" alt="Insta-Image">
-                                    <div class="add-action">
-                                        <i class="fab fa-instagram"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/images/footer/insta-five.png" alt="Insta-Image">
-                                    <div class="add-action">
-                                        <i class="fab fa-instagram"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/images/footer/insta-six.png" alt="Insta-Image">
-                                    <div class="add-action">
-                                        <i class="fab fa-instagram"></i>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
-                <!-- Footer Widget End -->
-
             </div>
- <!--            <div class="row">
-                <div class="col-12">
-                    <div class="copyright wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                        <p class="order-md-1 order-2">Designed with love by <span>Ar Tech</span> © 2022</p>
-
-                        <ul class="footer-bootm-list order-md-2 order-1">
-                            <li><a href="contact.html">Terms & Condition</a></li>
-                            <li><a href="contact.html">Privecy Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </footer>
     <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
@@ -461,7 +434,20 @@
     <!-- Activation JS -->
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/pages/contact.js"></script>
-
+    <script type="text/javascript">
+    function iniciarMap(){
+    var coord = {lat:28.6865851 ,lng: -81.3911899};
+    var map = new google.maps.Map(document.getElementById('map'),{
+      zoom: 10,
+      center: coord
+    });
+    var marker = new google.maps.Marker({
+      position: coord,
+      map: map
+    });
+}
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
 
 </html>
