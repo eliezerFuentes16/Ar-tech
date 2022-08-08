@@ -2148,7 +2148,8 @@ hr {
   width: 240px;
   height: 240px;
   border-radius: 100%;
-  background: linear-gradient(135deg, #4c2db7 0%, #5e3fc8 45%, #694bd2 66%);
+  /*background: linear-gradient(135deg, #4c2db7 0%, #5e3fc8 45%, #694bd2 66%);*/
+  background: rgb(244,94,3);
   position: absolute;
   right: 10px;
   bottom: 0;
@@ -2261,7 +2262,8 @@ hr {
   height: 165px;
   width: 165px;
   border-radius: 100%;
-  background: linear-gradient(135deg, #4c2db7 0%, #5e3fc8 45%, #694bd2 66%);
+  background: rgb(244,94,3);
+  /*background: linear-gradient(135deg, #4c2db7 0%, #5e3fc8 45%, #694bd2 66%);*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5932,6 +5934,7 @@ hr {
   position: relative;
   overflow: hidden;
   background-color: #e9edf4;
+  /*background-color: #1b64b0;*/
   padding: 270px 0 180px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7206,4 +7209,25 @@ hr {
 .owl-dots {
   text-align: center;
   display:none;
+}
+
+.icon-contacts{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); 
+  width:130px; 
+  height: 100px; 
+  background: #48e;
+  transition:transform .5s;
+}
+.icon-contacts:hover{
+  transform: scale(1.1);
+}
+
+.c-pointer{
+  cursor:pointer;
+}
+footer{
+  margin:0!important;
+
+
+
 }
