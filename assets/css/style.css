@@ -1871,6 +1871,11 @@ hr {
   }
 }
 
+.title-logo:hover {
+  color: rgb(244, 95, 3);
+
+
+}
 .title-logo {
   font-size: 45px;
   font-family: "Jost", sans-serif;
