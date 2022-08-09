@@ -455,7 +455,8 @@ hr {
 }
 
 .btn-style-four {
-  background: #e2c4ff;
+  background: rgb(244,94,3);
+  /*background: #e2c4ff;*/
   color: #1c1c1c;
   border-radius: 27px;
   padding: 20px 40px;
@@ -466,6 +467,7 @@ hr {
   font-size: 16px;
   position: relative;
   border: 0px;
+  color:#fff;
 }
 .btn-style-four:focus {
   box-shadow: none;
