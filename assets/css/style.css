@@ -7238,3 +7238,9 @@ footer{
 
 
 }
+
+.logo a img{
+
+  width:120px;
+  height: 70px
+}
